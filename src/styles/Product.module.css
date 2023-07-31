@@ -17,6 +17,12 @@
   gap: 20px;
 }
 
+.activeImage {
+  transition: all .4s;
+  border: 1px solid var(--violet);
+  transform: scale(108%);
+}
+
 .current {
   width: 375px;
   height: 375px;
